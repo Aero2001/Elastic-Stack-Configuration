@@ -13,6 +13,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - filebeat-playbook.yml
 - metricbeat-playbook.yml
 - hosts (approximate hosts file on ansible container)
+- filebeat-config.yml (must be updated with your ELK server's IP)
+- metricbeat-config.yml (must be updated with your ELK server's IP)
 
 This document contains the following details:
 - Description of the Topology
